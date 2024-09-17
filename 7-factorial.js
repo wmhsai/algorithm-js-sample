@@ -10,3 +10,4 @@ function fact(number) {
 console.log(fact(3)); //3*2*1
 console.log(fact(4)); //4*3*2*1
 console.log(fact(5)); //5*4*3*2*1
+
