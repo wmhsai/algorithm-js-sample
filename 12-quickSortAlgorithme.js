@@ -24,10 +24,14 @@ function QuickSort(array) {
     }
     const smallerElementsSortedArray = QuickSort(smallerElementsArray)
     const biggerElementsSortedArray = QuickSort(BiggerElementsArray)
-    return smallerElementsSortedArray.concat(
+    return smallerElementsSortedArray.concat(  //descending order
         centerElementsArray,
         biggerElementsSortedArray
     );
+    // return biggerElementsSortedArray.concat(
+    //     centerElementsArray,
+    //     smallerElementsSortedArray
+    // );
 
 
 }
@@ -39,5 +43,5 @@ console.log(sortedArray, "QuickSortArray");
 //  in average case is items are sorted randomly (NOT in right or wrong order) =>O(n*log n)
 
 //  in worst case is O(n^2)
-//if you calling yourself inside of a function (recursive function) = linear time coplexity 
+//if you calling yourself inside of a function (recursive function) = linear time coplexity
 //if you have loop in recursive => nested loop in a loop => quadratic time complexity O(n^2)
