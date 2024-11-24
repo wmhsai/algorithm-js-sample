@@ -1,5 +1,7 @@
 //Linear search
-function findElement(arr, element) { //linear time complexity o(n)    
+//linear time complexity o(n)    
+//space Complexity : O(1)
+function findElement(arr, element) {
     let index = 0
     for (const item of arr) {
         if (
@@ -45,6 +47,7 @@ const binarySearch = (sortedArray, element) => {
 arraySort = [1, 5, 9, 13, 99, 100]
 console.log(binarySearch(arraySort, 100), "binary search index");
 // in worst case time complexity is o(log n)
+//space Complexity : O(1)
 
 
 //Recursive Binary search 
@@ -68,5 +71,5 @@ const recursiveBinarySearch = (sortedArray, element, offset) => {
 
 
 arraySort = [1, 5, 9, 13, 99, 100]
-console.log(recursiveBinarySearch(arraySort, 99 , 0), "Recursive search index");
+console.log(recursiveBinarySearch(arraySort, 99, 0), "Recursive search index");
 // in worst case time complexity is o(log n)

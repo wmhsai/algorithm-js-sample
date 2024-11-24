@@ -13,3 +13,4 @@ function fact(number) {
 //same time complexity with diffrent way
 
 console.log(fact(4));
+//space Complexity : O(n)

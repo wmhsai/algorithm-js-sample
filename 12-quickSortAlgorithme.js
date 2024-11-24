@@ -45,3 +45,6 @@ console.log(sortedArray, "QuickSortArray");
 //  in worst case is O(n^2)
 //if you calling yourself inside of a function (recursive function) = linear time coplexity
 //if you have loop in recursive => nested loop in a loop => quadratic time complexity O(n^2)
+
+//space Complexity : O(n) 
+//space Complexity : O(log n) is possible 

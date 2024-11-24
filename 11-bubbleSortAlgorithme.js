@@ -23,3 +23,5 @@ console.log(sortedArray, "BubbleSortArray");
 //  in best case is O(n)
 //  in average case is Tends to be O(n^2)
 //  in worst case is O(n^2)
+
+//space Complexity : O(1)

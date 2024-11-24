@@ -10,3 +10,4 @@ const fib = (n) => {
 }
 
 console.log(fib(5), "fib 5"); //T=O(n) =>Linear Time Complxty
+//space Complexity : O(1)
