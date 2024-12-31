@@ -12,5 +12,6 @@ function ClimbingLeaderBoeard(Ranked, Player) {
     return result
 }
 
-console.log(ClimbingLeaderBoeard([100, 80, 80, 20], [40, 60, 110]), "Dense Ranking player");
-6
+console.log(ClimbingLeaderBoeard([100, 80, 80, 20], [40, 60, 110]), "Dense Ranking player");  //o(n) time complexity
+
+//  with binarySearch we can have better
